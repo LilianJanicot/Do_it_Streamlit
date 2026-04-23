@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.bottom_container import *
 import components.components as comp
 
 st.set_page_config(

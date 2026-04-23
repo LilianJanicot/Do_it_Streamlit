@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.bottom_container import *
 from pathlib import Path
 
 def course_card(course_name: str, course_desc: str, course_teachers: str=None, prerequisites: str = None):
