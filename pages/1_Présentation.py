@@ -23,6 +23,8 @@ La spécificité de <span style="color: red">D</span><span style="color: lightbl
 Un élève pourra, selon son projet professionnel, mixer les spécialisations disciplinaires ou rester mono couleur. Il pourra, à chaque temps, substituer un MON (Monitoring of Novelties) à un CS (cf plus loin le paragraphe MON). 
 
 Enfin, Do_It est en partenariat avec les masters  GIG (géométrie et informatique graphique) et IMD (informatique et mathématiques discrètes), que les élèves — s’ils le souhaitent et sous réserve d’acceptation par les responsables des différents masters — peuvent suivre en parallèle (les horaires sont aménagés).
+
+**Quota : 24 élèves**
 """, unsafe_allow_html=True
 )
 st.subheader("Emploi du temps")
