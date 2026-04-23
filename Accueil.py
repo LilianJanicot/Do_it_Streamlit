@@ -22,6 +22,8 @@ st.markdown(
     
     En vous souhaitant une bonne navigation sur le site et qu'ils répondent à vos attentes !
     La version actuelle présente la filière pour l'année **2026/2027**.
+    
+    **Note:** *Vous pouvez cliquez sur les trois points en haut à droite de votre écran pour changer le thème du site (clair/sombre).*
 """
 )
 

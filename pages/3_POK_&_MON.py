@@ -9,7 +9,7 @@ st.title("Présentation des projets POK et MON")
 st.subheader("Les MON")
 st.markdown(
     """
-À chaque temps, il est possible de choisir un CS spécial appelé MON (Monitoring of Novelties). Le MON est un travail individuel sur un sujet **proposé par l’élève et validé par votre tuteur**. 
+À chaque temps, il est possible de choisir un CS spécial appelé MON (Monitoring of Novelties). Cette CS se substitue à un CS Régulier. Le MON est un travail individuel sur un sujet **proposé par l’élève et validé par votre tuteur**. 
 
 Choisir un MON permet de préparer les prérequis d’un CS d’un temps suivant, d'approfondir un sujet ou encore d’acquérir des connaissances sur un nouveau thème. Il est validé et évalué par un document et une soutenance.
 
@@ -30,6 +30,7 @@ st.subheader("Les POK")
 st.markdown(
     """
 Le POK (Proof of Knowledge) est un projet court (24h) permettant de mettre en pratique un savoir acquis pendant la formation. Le choix du sujet est libre mais il doit être validé par un tuteur pédagogique. Il est le plus souvent individuel mais peut être mené en binôme.
+Des jalons réguliers sont programmés (1 par temps) pour que chaque élève présente au reste de la promotion et aux tuteurs les avancées de ses POK.
 
 Quelques exemples de POK par temps.
 - Temps 1 :

@@ -10,7 +10,7 @@ def footer():
         Les informations sur le site peuvent donc être incomplètes ou obsolètes, et il est recommandé de vérifier les informations auprès des sources officielles de l'école pour toute question ou préoccupation.*</font>
         """, unsafe_allow_html=True
         )
-        st.write("© 2026 Lilian Janicot. Tous droits réservés. Le site n'a pas été généré par une IA. Version 0.1")
+        st.write("© 2026 Lilian Janicot. Le site n'a pas été généré par une IA. Version 0.1")
 
 def course_card(course_name: str, course_desc: str, course_teachers: str=None, prerequisites: str = None):
     st.subheader(course_name)
