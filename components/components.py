@@ -12,7 +12,11 @@ def footer():
         )
         st.write("© 2026 Lilian Janicot. Tous droits réservés. Le site n'a pas été généré par une IA. Version 0.1")
 
-def course_card(course_name, course_desc, course_teachers):
+def course_card(course_name: str, course_desc: str, course_teachers: str=None, prerequisites: str = None):
     st.subheader(course_name)
-    st.markdown(f"**Enseignant(s)** : {course_teachers}")
-    st.write(course_desc)
+    if course_teachers:
+        st.markdown(f"*Enseignant(es) : {course_teachers}*")
+    if prerequisites:
+        st.markdown(f"**Prérequis** : {prerequisites}")
+    st.markdown(f"""{course_desc}""")
+    

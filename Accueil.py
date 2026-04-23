@@ -4,6 +4,7 @@ import components.components as comp
 
 st.set_page_config(
     page_title="Do_it - Accueil",
+    layout="wide"
 )
 st.title("Bienvenue sur le site pour présenter la filière 3A de Do_it !")
 st.markdown(
