@@ -15,7 +15,7 @@ Le module est un peu lourd (plusieurs Mo) et dépend de beaucoup d'autres module
 ### Lancer le site internet
 Dans le dossier du projet, lancez la commande :
 ```
-streamlit run main.py
+streamlit run Accueil.py
 ```
 pour lancer le serveur ainsi que le site internet.
 
