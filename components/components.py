@@ -28,7 +28,7 @@ def footer():
     </style>
     <div class="footer">
     Ce site n'a fait l'objet d'aucune validation officielle de la part de l'école. Il est destiné à être un outil de communication et de partage d'informations pour les étudiants. Les informations sur le site peuvent donc être incomplètes ou obsolètes, et il est recommandé de vérifier les informations auprès des sources officielles de l'école pour toute question ou préoccupation.
-    <br>© 2026 Lilian Janicot. Ce site n'a pas été généré par une IA. Version 0.1
+    <br>© 2026 Lilian Janicot. Ce site n'a pas été généré par une IA. Version 1.0.
     </div>
     """
     st.markdown(footer, unsafe_allow_html=True)

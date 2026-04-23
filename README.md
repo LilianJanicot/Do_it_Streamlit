@@ -1,7 +1,7 @@
 # Do_it_Streamlit
 Projet pour transformer la présentation de l'option 3A Do-it en un site internet hébergé localement via le module streamlit. C'est plus beau et plus lisible qu'un google document :)
 
-Le projet utilise le module streamlit de python car il est facile à utiliser et prendra peu de temps de code pour un résultat plus que convenable.
+Le projet utilise le module streamlit sous python car il est facile à utiliser et prendra peu de temps de code pour un résultat plus que convenable.
 Le module streamlit lance un serveur en local pour héberger un site internet.
 
 # Comment lancer le projet?
@@ -18,9 +18,3 @@ Dans le dossier du projet, lancez la commande :
 streamlit run Accueil.py
 ```
 pour lancer le serveur ainsi que le site internet.
-
-# Comment le fichier requirements.txt est généré?
-Dans le dossier du projet, lancez :
-```
-pip freeze > requirements.txt
-```
