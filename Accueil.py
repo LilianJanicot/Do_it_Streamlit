@@ -14,7 +14,7 @@ st.markdown(
     Les différentes pages disponibles sont :
     - **Présentation** : une page pour présenter la filière et ses objectifs.
     - **Cours Disponibles** : une page pour présenter les différents cours proposés dans la filière.
-    - **POK_&_MON** : une page pour présenter les projets POK et les MON.
+    - **POK&MON** : une page pour présenter les projets POK et les MON.
     - **Masters** : une page pour présenter les différents partenariats de masters proposés dans la filière.
     - **Responsables** : une page pour présenter les différents responsables de la filière.
 

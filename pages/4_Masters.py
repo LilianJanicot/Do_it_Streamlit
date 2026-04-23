@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_extras.bottom_container import *
-
+st.set_page_config(
+    page_title="Do_it - Masters",
+)
 st.title("Masters proposés en parallèle de Do_it")
 
 st.markdown(
