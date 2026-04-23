@@ -1,8 +1,9 @@
 import streamlit as st
 import components.components as comp
 st.set_page_config(
-    page_title="Do_it - Cours",
-    layout="wide"
+    page_title="Cours",
+    layout="wide",
+    page_icon=comp.path_logo()
 )
 st.title("Cours de spécialité en 3A")
 

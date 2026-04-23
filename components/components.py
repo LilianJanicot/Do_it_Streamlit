@@ -1,5 +1,7 @@
 import streamlit as st
 from streamlit_extras.bottom_container import *
+from pathlib import Path
+
 
 def footer():
     with bottom() :
@@ -19,4 +21,8 @@ def course_card(course_name: str, course_desc: str, course_teachers: str=None, p
     if prerequisites:
         st.markdown(f"**Prérequis** : {prerequisites}")
     st.markdown(f"""{course_desc}""")
-    
+
+def path_logo():
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    image = BASE_DIR / "components" / "images" / "Do_it.png"
+    return image

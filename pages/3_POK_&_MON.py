@@ -2,7 +2,9 @@ import streamlit as st
 import components.components as comp
 
 st.set_page_config(
-    page_title="Do_it - POK&MON",
+    page_title="POK&MON",
+    layout="wide",
+    page_icon=comp.path_logo()
 )
 
 st.title("Présentation des projets POK et MON")

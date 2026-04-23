@@ -3,8 +3,9 @@ import pandas as pd
 import components.components as comp
 
 st.set_page_config(
-    page_title="Do_it - Présentation",
-    layout="wide"
+    page_title="Présentation",
+    layout="wide",
+    page_icon=comp.path_logo()
 )
 
 st.title("Présentation de la filière 3A de Do_it")

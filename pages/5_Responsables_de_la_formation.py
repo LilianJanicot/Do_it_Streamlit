@@ -8,8 +8,9 @@ image_path2 = BASE_DIR / "components" / "images" / "goupix.png"
 
 
 st.set_page_config(
-    page_title="Do_it - Responsables",
-    layout="wide"
+    page_title="Responsables",
+    layout="wide",
+    page_icon=comp.path_logo()
 )
 
 st.title("Responsables de la filière Do_it")

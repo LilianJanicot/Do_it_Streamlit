@@ -3,8 +3,9 @@ from streamlit_extras.bottom_container import *
 import components.components as comp
 
 st.set_page_config(
-    page_title="Do_it - Accueil",
-    layout="wide"
+    page_title="Accueil",
+    layout="wide",
+    page_icon=comp.path_logo()
 )
 st.title("Bienvenue sur le site pour présenter la filière 3A de Do_it !")
 st.markdown(
